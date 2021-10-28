@@ -1,0 +1,18 @@
+Examples of Request URLs
+
+To Create Journey http://localhost:5000/api/Journey/Create
+
+To Delete Journey http://localhost:5000/api/Journey/Delete?Id=1 
+
+To List Journeys http://localhost:5000/api/Journey/List?departure=Istanbul&destination=Adiyaman
+
+To Join Journey http://localhost:5000/api/Journey/Join?Id=1
+
+Examples of Journey Model
+
+string Departure // not null
+string Destination // not null
+DateTime JourneyDate // not null
+int SeatNumber // bigger than zero
+string Comment // nullable
+
